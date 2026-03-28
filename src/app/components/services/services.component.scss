@@ -1,0 +1,131 @@
+.service-page{
+    margin: 25px 25px 90px 25px;
+}
+
+.service{
+    padding: 35px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h3{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .description{
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+}
+
+.service-one{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+    .service-text-one{
+        flex: 1 1 50px;
+        max-width: 50%;
+        box-sizing: border-box;
+        padding: 0 40px;
+
+        h2{
+            font-size: 30px;
+            padding-bottom: 15px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+    }
+
+}
+
+.service-two{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+    .service-text-two{
+        flex: 1 1 50px;
+        max-width: 50%;
+        box-sizing: border-box;
+        padding: 0 40px;
+
+        h2{
+            font-size: 30px;
+            padding-bottom: 15px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+        
+    }
+
+}
+
+.service-three{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+
+    .service-text-three{
+        flex: 1 1 50px;
+        max-width: 50%;
+        box-sizing: border-box;
+        padding: 0 40px;
+
+        h2{
+            font-size: 30px;
+            padding-bottom: 15px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+        
+    }
+
+}
+
+.service-img-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.service-img-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.service-img-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    height: auto;
+}
